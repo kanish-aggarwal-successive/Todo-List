@@ -1,0 +1,28 @@
+.List {
+    border: 3px #9b24eb solid;
+    width: 25%;
+    margin: auto;
+    height: 500px;
+    list-style: none;
+    background-color: #f7f1f1;
+}
+
+.Task {
+    text-align: left;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.ListItem {
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+}
+
+.Close {
+    float: right;
+    margin-right: 25px;
+}
+
+.Close:hover {
+    cursor: pointer;
+}
